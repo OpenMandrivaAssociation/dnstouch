@@ -10,6 +10,7 @@ Source1:	ndu.conf
 Patch0:		ndu-opt.patch
 Patch1:		ndu-verbose.patch
 Requires:	ed bind 
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 dnstouch incrementally updates bind v8+ zone file serial numbers.
