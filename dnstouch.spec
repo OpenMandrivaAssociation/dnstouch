@@ -1,7 +1,7 @@
 Summary:	Incrementally updates bind v8+ zone file serial numbers
 Name:		dnstouch
 Version:	0.4
-Release:	%mkrel 12
+Release:	%mkrel 14
 License:	GPL
 Group:		Networking/Other
 URL:		http://uranus.it.swin.edu.au/~jn/linux/dns.htm
