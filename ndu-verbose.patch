@@ -1,0 +1,20 @@
+--- src/dnstouch.cpp	Tue Jan 30 06:01:33 2001
++++ src/dnstouch.cpp.oden	Tue Feb  6 00:38:20 2001
+@@ -173,7 +173,7 @@
+ 					break;
+ 
+ 				case 3:
+-					//printf("Serial number is %s\n", s->pchar());
++					printf("Old serial number: %s\n", s->pchar());
+ 					if(strlen(s->pchar()) == 10)
+ 					{
+ 						long serial = atol(s->pchar());
+@@ -200,7 +200,7 @@
+ 							//printf("Setting new date, revision 0\n");
+ 							newSerial = getTodaySerial();
+ 						}
+-						//fprintf(stderr, "new serial number is %ld\n", newSerial);
++						fprintf(stderr, "New serial number: %ld\n", newSerial);
+ 
+ 						// one last sanity check.
+ 						if(newSerial > serial)
