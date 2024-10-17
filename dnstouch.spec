@@ -4,7 +4,7 @@ Version:	0.4
 Release:	17
 License:	GPL
 Group:		Networking/Other
-URL:		http://uranus.it.swin.edu.au/~jn/linux/dns.htm
+URL:		https://uranus.it.swin.edu.au/~jn/linux/dns.htm
 Source0:	http://uranus.it.swin.edu.au/~jn/linux/ndu-%{version}.tar.bz2
 Source1:	ndu.conf
 Patch0:		ndu-opt.patch
